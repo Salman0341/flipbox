@@ -1,0 +1,156 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+/*****Up Flipbox CSS******/
+.cwp_flipbox_wrapper.up {
+  position: relative;
+  -o-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px; }
+
+.cwp_flipbox_wrapper.up .cwp_flipper {
+  position: relative;
+  transform-style: preserve-3d; }
+
+.cwp_flipbox_wrapper.up .cwp_front {
+  transform: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.cwp_flipbox_wrapper.up .cwp_back {
+  transform: rotateX(-180deg) rotateY(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.cwp_flipbox_wrapper.up .cwp_front, .cwp_flipbox_wrapper.up .cwp_back {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+.cwp_flipbox_wrapper.back .cwp_front {
+  transform: rotateX(180deg) rotateY(0); }
+
+.cwp_flipbox_wrapper.up.back .cwp_back {
+  transform: none; }
+
+/******* Down CSS ********/
+.cwp_flipbox_wrapper.down {
+  position: relative;
+  -o-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px; }
+
+.cwp_flipbox_wrapper.down .cwp_flipper {
+  position: relative;
+  transform-style: preserve-3d; }
+
+.cwp_flipbox_wrapper.down .cwp_front {
+  transform: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.cwp_flipbox_wrapper.down .cwp_back {
+  transform: rotateX(180deg) rotateY(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.cwp_flipbox_wrapper.down .cwp_front, .cwp_flipbox_wrapper.down .cwp_back {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+.cwp_flipbox_wrapper.down.back .cwp_front {
+  transform: rotateX(-180deg) rotateY(0); }
+
+.cwp_flipbox_wrapper.down.back .cwp_back {
+  transform: none; }
+
+/************Left CSS****************/
+.cwp_flipbox_wrapper.left {
+  position: relative;
+  -o-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px; }
+
+.cwp_flipbox_wrapper.left .cwp_flipper {
+  position: relative;
+  transform-style: preserve-3d; }
+
+.cwp_flipbox_wrapper.left .cwp_front {
+  transform: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.cwp_flipbox_wrapper.left .cwp_back {
+  transform: rotateX(0) rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.cwp_flipbox_wrapper.left .cwp_front, .cwp_flipbox_wrapper.left .cwp_back {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+.cwp_flipbox_wrapper.left.back .cwp_front {
+  transform: rotateX(0) rotateY(-180deg); }
+
+.cwp_flipbox_wrapper.left.back .cwp_back {
+  transform: none; }
+
+/**********Right CSS***********/
+.cwp_flipbox_wrapper.right {
+  position: relative;
+  -o-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px; }
+
+.cwp_flipbox_wrapper.right .cwp_flipper {
+  position: relative;
+  transform-style: preserve-3d; }
+
+.cwp_flipbox_wrapper.right .cwp_front {
+  transform: none;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.cwp_flipbox_wrapper.right .cwp_back {
+  transform: rotateX(0) rotateY(-180deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.cwp_flipbox_wrapper.right .cwp_front, .cwp_flipbox_wrapper.right .cwp_back {
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+.cwp_flipbox_wrapper.right.back .cwp_front {
+  transform: rotateX(0) rotateY(180deg); }
+
+.cwp_flipbox_wrapper.right.back .cwp_back {
+  transform: none; }
+
+/*********Vertical Center CSS**************/
+.cwp_flipbox_wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.cwp_front, .cwp_back {
+  display: flex;
+  flex-direction: column; }
+
+/***********3d Depth Effect************/
+.depth-effect .cwp_front, .depth-effect .cwp_back {
+  transform-style: preserve-3d; }
+
+.depth-effect .cwp_front_wrapper, .depth-effect .cwp_back_wrapper {
+  transform: translateZ(90px) scale(0.91); }
+
+.cwp_front, .cwp_back {
+  transform-style: preserve-3d;
+  border: 5px solid #000;
+  text-align: center; }
+
+
+/*# sourceMappingURL=index.css.map*/

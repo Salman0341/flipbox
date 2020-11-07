@@ -1,0 +1,260 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+// /*****Up Flipbox CSS******/
+
+// .cwp_flipbox_wrapper.up {
+// 	position: relative;
+//    -webkit-perspective: 1000px;
+//    -moz-perspective: 1000px;
+//    -o-perspective: 1000px;
+//    -ms-perspective: 1000px;
+//    perspective: 1000px;
+//   }
+  
+// .cwp_flipbox_wrapper.up .cwp_flipper {
+//    position: relative;
+//    -webkit-transform-style: preserve-3d;
+//    -moz-transform-style: preserve-3d;
+//    -o-transform-style: preserve-3d;
+//    -ms-transform-style: preserve-3d;
+//    transform-style: preserve-3d;
+//   }
+  
+// .cwp_flipbox_wrapper.up .cwp_front {
+  
+// 	-webkit-transform: none;
+// 	-ms-transform: none;
+// 	 transform: none;
+// 	 -webkit-backface-visibility: hidden;
+// 	 backface-visibility: hidden;
+//   }
+  
+// .cwp_flipbox_wrapper.up .cwp_back { 
+// 	-webkit-transform: rotateX(-180deg) rotateY(0);
+// 	transform: rotateX(-180deg) rotateY(0);
+// 	-webkit-backface-visibility: hidden;
+// 	backface-visibility: hidden;
+//  }
+  
+// .cwp_flipbox_wrapper .cwp_front, .cwp_flipbox_wrapper.up .cwp_back {
+// 		  position: absolute;
+// 		  top:0px;
+// 		  left: 0px;
+//   }
+  
+//  .cwp_flipbox_wrapper.up:hover .cwp_front {
+//   -webkit-transform: rotateX(180deg) rotateY(0);
+//   transform: rotateX(180deg) rotateY(0);
+//   }
+  
+// .cwp_flipbox_wrapper.up:hover .cwp_back {
+// 	-webkit-transform: none;
+// 	-ms-transform: none;
+// 	 transform: none;
+//   }
+  
+//   /******* Down CSS ********/
+  
+// .cwp_flipbox_wrapper.down {
+// 	position: relative;
+//    -webkit-perspective: 1000px;
+//    -moz-perspective: 1000px;
+//    -o-perspective: 1000px;
+//    -ms-perspective: 1000px;
+//    perspective: 1000px;
+//   }
+  
+// .cwp_flipbox_wrapper.down .cwp_flipper {
+//    position: relative;
+//    -webkit-transform-style: preserve-3d;
+//    -moz-transform-style: preserve-3d;
+//    -o-transform-style: preserve-3d;
+//    -ms-transform-style: preserve-3d;
+//    transform-style: preserve-3d;
+//   }
+  
+//  .cwp_flipbox_wrapper.down .cwp_front {
+// 	-webkit-transform: none;
+// 	-ms-transform: none;
+// 	 transform: none;
+// 	 -webkit-backface-visibility: hidden;
+// 	 backface-visibility: hidden;
+//   }
+  
+//  .cwp_flipbox_wrapper.down .cwp_back { 
+// 	-webkit-transform: rotateX(180deg) rotateY(0);
+// 	transform: rotateX(180deg) rotateY(0);
+// 	-webkit-backface-visibility: hidden;
+// 	backface-visibility: hidden;
+//   }
+  
+// .cwp_flipbox_wrapper.down .cwp_front, .cwp_flipbox_wrapper.down .cwp_back {
+// 		  position: absolute;
+// 		  top:0px;
+// 		  left: 0px;
+//   }
+  
+// .cwp_flipbox_wrapper.down:hover .cwp_front {
+//   -webkit-transform: rotateX(-180deg) rotateY(0);
+//   transform: rotateX(-180deg) rotateY(0);
+//   }
+  
+// .cwp_flipbox_wrapper.down:hover .cwp_back {
+// 	-webkit-transform: none;
+// 	-ms-transform: none;
+// 	 transform: none;
+// }
+  
+//   /************Left CSS****************/
+  
+// .cwp_flipbox_wrapper.left {
+// 	position: relative;
+//    -webkit-perspective: 1000px;
+//    -moz-perspective: 1000px;
+//    -o-perspective: 1000px;
+//    -ms-perspective: 1000px;
+//    perspective: 1000px;
+//   }
+  
+// .cwp_flipbox_wrapper.left .cwp_flipper {
+//    position: relative;
+//    -webkit-transform-style: preserve-3d;
+//    -moz-transform-style: preserve-3d;
+//    -o-transform-style: preserve-3d;
+//    -ms-transform-style: preserve-3d;
+//    transform-style: preserve-3d;
+//   }
+  
+// .cwp_flipbox_wrapper.left .cwp_front {
+  
+// 	-webkit-transform: none;
+// 	-ms-transform: none;
+// 	 transform: none;
+// 	 -webkit-backface-visibility: hidden;
+// 	 backface-visibility: hidden;
+//   }
+  
+// .cwp_flipbox_wrapper.left .cwp_back { 
+// 	-webkit-transform: rotateX(0) rotateY(180deg);
+// 	transform: rotateX(0) rotateY(180deg);
+// 	-webkit-backface-visibility: hidden;
+// 	backface-visibility: hidden;
+//   }
+  
+//  .cwp_flipbox_wrapper.left .cwp_front, .cwp_flipbox_wrapper.left .cwp_back {
+// 		  position: absolute;
+// 		  top:0px;
+// 		  left: 0px;
+//   }
+  
+// .cwp_flipbox_wrapper.left:hover .cwp_front {
+// 	-webkit-transform: rotateX(0) rotateY(-180deg);
+// 	transform: rotateX(0) rotateY(-180deg);
+//   }
+  
+// .cwp_flipbox_wrapper.left:hover .cwp_back {
+// 	-webkit-transform: none;
+// 	-ms-transform: none;
+// 	 transform: none;
+// }
+  
+//   /**********Right CSS***********/
+  
+// .cwp_flipbox_wrapper.right {
+// 	position: relative;
+//    -webkit-perspective: 1000px;
+//    -moz-perspective: 1000px;
+//    -o-perspective: 1000px;
+//    -ms-perspective: 1000px;
+//    perspective: 1000px;
+//   }
+  
+// .cwp_flipbox_wrapper.right .cwp_flipper {
+//    position: relative;
+//    -webkit-transform-style: preserve-3d;
+//    -moz-transform-style: preserve-3d;
+//    -o-transform-style: preserve-3d;
+//    -ms-transform-style: preserve-3d;
+//    transform-style: preserve-3d;
+//   }
+  
+// .cwp_flipbox_wrapper.right .cwp_front {
+  
+// 	-webkit-transform: none;
+// 	-ms-transform: none;
+// 	 transform: none;
+// 	 -webkit-backface-visibility: hidden;
+// 	 backface-visibility: hidden;
+//   }
+  
+// .cwp_flipbox_wrapper.right .cwp_back { 
+// 	-webkit-transform: rotateX(0) rotateY(-180deg);
+// 	transform: rotateX(0) rotateY(-180deg);
+// 	-webkit-backface-visibility: hidden;
+// 	backface-visibility: hidden;
+//   }
+  
+// .cwp_flipbox_wrapper.right .cwp_front, .cwp_flipbox_wrapper.right .cwp_back {
+// 		  position: absolute;
+// 		  top:0px;
+// 		  left: 0px;
+//   }
+  
+// .cwp_flipbox_wrapper.right:hover .cwp_front {
+// 	-webkit-transform: rotateX(0) rotateY(180deg);
+// 	transform: rotateX(0) rotateY(180deg);
+//   }
+  
+// .cwp_flipbox_wrapper.right:hover .cwp_back {
+// 	-webkit-transform: none;
+// 	-ms-transform: none;
+// 	 transform: none;
+//   }
+  
+//   /*********Vertical Center CSS**************/
+  
+//   .cwp_flipbox_wrapper {
+// 	display: -webkit-box;
+// 	display: -ms-flexbox;
+// 	display: flex;
+// 	-webkit-box-orient: vertical;
+// 	-webkit-box-direction: normal;
+// 		-ms-flex-direction: column;
+// 			flex-direction: column;
+//   }
+  
+  
+//   .cwp_front, .cwp_back {
+// 	display: -webkit-box;
+// 	display: -ms-flexbox;
+// 	display: flex;
+// 	-webkit-box-orient: vertical;
+// 	-webkit-box-direction: normal;
+// 		-ms-flex-direction: column;
+// 			flex-direction: column;
+//   }
+  
+//   /***********3d Depth Effect************/
+  
+//   .depth-effect .cwp_front, .depth-effect .cwp_back {
+// 	   -webkit-transform-style: preserve-3d;
+// 	   transform-style: preserve-3d;
+//   }
+  
+//   .depth-effect .cwp_front_wrapper , .depth-effect .cwp_back_wrapper   {
+// 	-webkit-transform: translateZ(90px) scale(.91);
+// 	transform: translateZ(90px) scale(.91);
+//   }
+
+// .cwp_front, .cwp_back {
+// 	-webkit-transform-style: preserve-3d;
+// 	transform-style: preserve-3d;
+// 	border: 5px solid #000;
+// 	text-align:center;
+// }
+
